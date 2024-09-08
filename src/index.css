@@ -10,6 +10,12 @@
 
 body{
     background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration: wavy;
 }
 
 .container{
@@ -29,25 +35,56 @@ body{
     margin-bottom: 2rem;
 }
 
-.nav-bar--logo{
-    display: inline-block;
-    height: auto;
-}
 
 .destination{
     display: flex;
     gap: 1rem;
     align-content: center;
     padding: 10px;
-    border: 1px soid blue;
+    border: none;
     border-radius: 10px;
+    outline: 1px solid rgba(112, 112, 139, 0.521);
+    margin-bottom: 2rem;
+    background-color: #fffbf6;
+}
+
+.destination--location{
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    text-shadow: -1px 0px 2px #818181;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.destination--period{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #818181;
+    
+}
+
+.destination--description{
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1rem;
 }
 
 .destination--image img{
     width: 20rem;
     height: auto;
+    border-radius: 10px;
 }
 
 .destination--details{
     align-self: center;
+}
+
+@media screen and (max-width: 687px) {
+    .destination{
+        flex-direction: column;
+    }
+
+    .destination--image img {
+        width: 100%;        
+    }
 }

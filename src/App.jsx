@@ -8,11 +8,13 @@
     return(
       <Destination
         key = {destination.id}
-        img= {destination.img}
-        country= {destination.country}
-        googleMap={destination.googleMap}
-        duration={destination.duration}
-        description={destination.description}
+        destination = {destination}
+        // img= {destination.img}
+        // destination = {destination.destination}
+        // country= {destination.country}
+        // googleMap={destination.googleMap}
+        // duration={destination.duration}
+        // description={destination.description}
         
       />
     )
