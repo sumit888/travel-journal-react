@@ -23,7 +23,7 @@ body{
 }
 
 .nav-bar--logo{
-    display: inline;
+    display: inline-block;
     
     height: auto;
 }
