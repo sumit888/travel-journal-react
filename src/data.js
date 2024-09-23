@@ -25,6 +25,16 @@ export default [
         destination: "Bali",
         duration: "1st August - 15 August",
         description: "Blissful land of islands. Just wrapped up a few days in Bali, and it’s been magical. From the lush rice terraces in Ubud to the stunning beaches in Seminyak, every corner feels like a postcard."
+    },
+    {
+        id: 4,
+        img: "bali.jpg",
+        country: "Australia",
+        googleMap: "https://maps.app.goo.gl/Zda69ACxXmFzFjat7",
+        destination: "Sydney",
+        duration: "10th May - 10th June",
+        description: "Blissful land of blue skies and beaches. Spent a good month in sydney, and it’s been magical. Every corner feels like a postcard."
+
     }
     
 ]
